@@ -1,0 +1,283 @@
+{
+  "personalInfo": {
+    "name": "Keny Martin Robles",
+    "title": "Full Stack Developer | ERP Integration Specialist | Enterprise Solutions Architect",
+    "tagline": "Delivering scalable, secure, and high-performance web applications across fintech, telecom, and technology industries",
+    "email": "kenymartinr@gmail.com",
+    "phone": "+1 (616) 432-8350",
+    "location": "Wyoming, Michigan",
+    "photo": "/images/profile.jpg",
+    "summary": "Full Stack Developer with over 10 years of experience delivering scalable, secure, and high-performance web applications across fintech, telecom, and technology industries. Expert in building enterprise solutions using ASP.NET Core, C#, SQL Server, modern JavaScript frameworks (Angular, React), and ERP platforms including Epicor 10 and Kinetic ERP. Skilled in ERP customization, API/REST integration, database optimization, CI/CD automation, and deploying applications in AWS cloud environments."
+  },
+  "social": {
+    "github": "https://github.com/kenymartin",
+    "linkedin": "https://linkedin.com/in/kenymartin",
+    "twitter": "https://twitter.com/kenymartin",
+    "portfolio": "https://kenymartin.dev"
+  },
+  "skills": {
+    "languages": [
+      { "name": "C#", "level": 98, "icon": "SiCsharp" },
+      { "name": "JavaScript", "level": 95, "icon": "SiJavascript" },
+      { "name": "TypeScript", "level": 92, "icon": "SiTypescript" },
+      { "name": "Python", "level": 85, "icon": "SiPython" },
+      { "name": "SQL", "level": 95, "icon": "SiPostgresql" }
+    ],
+    "frontend": [
+      { "name": "Angular", "level": 95, "icon": "SiReact" },
+      { "name": "React", "level": 90, "icon": "SiReact" },
+      { "name": "ASP.NET MVC", "level": 95, "icon": "SiDotnet" },
+      { "name": "Bootstrap", "level": 88, "icon": "SiTailwindcss" },
+      { "name": "Tailwind CSS", "level": 85, "icon": "SiTailwindcss" },
+      { "name": "HTML5/CSS3", "level": 95, "icon": "SiHtml5" }
+    ],
+    "backend": [
+      { "name": "ASP.NET Core", "level": 98, "icon": "SiDotnet" },
+      { "name": "Entity Framework", "level": 95, "icon": "SiDotnet" },
+      { "name": "Node.js", "level": 85, "icon": "SiNodedotjs" },
+      { "name": "GraphQL", "level": 80, "icon": "SiGraphql" },
+      { "name": "REST APIs", "level": 98, "icon": "SiPostman" }
+    ],
+    "cloud": [
+      { "name": "AWS", "level": 90, "icon": "SiAmazonaws" },
+      { "name": "Azure DevOps", "level": 88, "icon": "SiMicrosoftazure" },
+      { "name": "Docker", "level": 85, "icon": "SiDocker" },
+      { "name": "Kubernetes", "level": 75, "icon": "SiKubernetes" },
+      { "name": "CI/CD", "level": 95, "icon": "SiGithubactions" }
+    ],
+    "databases": [
+      { "name": "SQL Server", "level": 98, "icon": "SiPostgresql" },
+      { "name": "Redis", "level": 85, "icon": "SiRedis" },
+      { "name": "AWS RDS", "level": 90, "icon": "SiAmazonaws" },
+      { "name": "Entity Framework", "level": 95, "icon": "SiDotnet" }
+    ],
+    "erp": [
+      { "name": "Epicor 10 ERP", "level": 95, "icon": "SiPostgresql" },
+      { "name": "Kinetic ERP", "level": 90, "icon": "SiPostgresql" },
+      { "name": "ERP API Integration", "level": 95, "icon": "SiPostman" },
+      { "name": "ERP Customization", "level": 90, "icon": "SiDotnet" }
+    ],
+    "tools": [
+      { "name": "Visual Studio", "level": 98, "icon": "SiVisualstudiocode" },
+      { "name": "Git", "level": 95, "icon": "SiGit" },
+      { "name": "Jira", "level": 90, "icon": "SiJira" },
+      { "name": "Postman", "level": 95, "icon": "SiPostman" },
+      { "name": "Swagger", "level": 90, "icon": "SiPostman" }
+    ]
+  },
+  "experience": [
+    {
+      "id": 1,
+      "company": "Acer America",
+      "position": "Full Stack Web Developer",
+      "location": "Remote",
+      "startDate": "2023-01",
+      "endDate": null,
+      "current": true,
+      "description": "Developing high-performing ASP.NET Core REST APIs and Angular applications with ERP integration, including work on Evoltbay enterprise marketplace platform",
+      "achievements": [
+        "Developed high-performing ASP.NET Core REST APIs integrated with SQL Server and EF Core, reducing latency by 35%",
+        "Built modular Angular components with RxJS and lazy loading, improving application responsiveness by 30%",
+        "Working on Evoltbay (personal project) - enterprise marketplace platform for government and commercial contracting",
+        "Automated deployment pipelines with GitHub Actions and Docker, cutting release cycle time by 50%",
+        "Enhanced application security by implementing OAuth2/OpenID Connect authentication and OWASP-aligned validation",
+        "Integrated Epicor and Kinetic ERP systems with custom APIs, automating 45% of manual processing",
+        "Implemented centralized logging and monitoring with Serilog and AWS CloudWatch, reducing MTTR by 45%"
+      ],
+      "technologies": ["ASP.NET Core", "Angular", "SQL Server", "Entity Framework", "AWS", "Docker", "Epicor ERP", "OAuth2", "Microservices", "Azure"]
+    },
+    {
+      "id": 2,
+      "company": "Spectrum Net Designs",
+      "position": "Web Developer",
+      "location": "Michigan",
+      "startDate": "2022-04",
+      "endDate": "2022-10",
+      "current": false,
+      "description": "Built React applications with GraphQL APIs and Docker microservices",
+      "achievements": [
+        "Built React applications integrated with GraphQL APIs, reducing redundant data fetches",
+        "Managed state across applications using Redux Toolkit, ensuring consistent performance",
+        "Implemented Docker-based microservices, standardizing environments and reducing deployment failures",
+        "Created automated CI pipelines with GitHub Actions, enabling continuous testing",
+        "Increased unit test coverage with Jest and React Testing Library, reducing production defects by 25%",
+        "Built reporting and dashboard modules integrated with Epicor ERP, improving financial visibility"
+      ],
+      "technologies": ["React", "GraphQL", "Docker", "Redux", "TypeScript", "Jest", "Epicor ERP", "GitHub Actions"]
+    },
+    {
+      "id": 3,
+      "company": "EMUBESHIP",
+      "position": "Lead Web Developer",
+      "location": "Remote",
+      "startDate": "2019-03",
+      "endDate": "2022-04",
+      "current": false,
+      "description": "Directed design and development of Angular-based SPAs and ASP.NET Core services",
+      "achievements": [
+        "Directed the design and development of Angular-based SPAs with NgRx for state management",
+        "Delivered ASP.NET Core services supporting account management, billing, and notifications",
+        "Managed SQL Server database schemas and ETL pipelines for multi-tenant workloads",
+        "Established CI/CD pipelines in Azure DevOps with blue-green deployments, enabling zero-downtime releases",
+        "Introduced feature flags and A/B testing frameworks, improving decision making through real-time metrics",
+        "Integrated ERP (Epicor/Kinetic) APIs with billing and account modules, enabling seamless data exchange"
+      ],
+      "technologies": ["Angular", "ASP.NET Core", "SQL Server", "Azure DevOps", "NgRx", "Epicor ERP", "Kinetic ERP"]
+    },
+    {
+      "id": 4,
+      "company": "Statetrust",
+      "position": "Lead Web Developer",
+      "location": "Dominican Republic",
+      "startDate": "2012-06",
+      "endDate": "2017-02",
+      "current": false,
+      "description": "Spearheaded development of ASP.NET MVC applications and ERP system integration",
+      "achievements": [
+        "Spearheaded the development of ASP.NET MVC applications with C#, jQuery, and SQL Server",
+        "Oversaw the enterprise rollout of Epicor 10 ERP, integrating with authentication and reporting systems",
+        "Customized Epicor modules and built reporting extensions for financial workflows",
+        "Enhanced database performance with indexing strategies, reducing query times by 50%",
+        "Implemented automated build and release pipelines, reducing human errors",
+        "Mentored a team of five developers, improving skillsets in .NET development and ERP integrations"
+      ],
+      "technologies": ["ASP.NET MVC", "C#", "SQL Server", "Epicor 10 ERP", "jQuery", "SSIS", "IIS"]
+    }
+  ],
+  "projects": [
+    {
+      "id": 0,
+      "title": "Evoltbay - Enterprise Marketplace Platform (Personal Project)",
+      "description": "A comprehensive digital marketplace platform for enterprise and government contracting commerce. Built as a personal project to explore modern web technologies and create innovative solutions for business-to-business transactions.",
+      "image": "/images/evoltbay.jpg",
+      "technologies": ["ASP.NET Core", "React", "SQL Server", "Azure", "Docker", "Kubernetes", "OAuth2", "Microservices"],
+      "features": [
+        "Secure government and enterprise contracting marketplace",
+        "Real-time bidding and proposal management system",
+        "Advanced compliance and regulatory tracking",
+        "Multi-tenant architecture supporting diverse industries",
+        "Integrated payment processing and escrow services",
+        "AI-powered contract analysis and risk assessment",
+        "Comprehensive audit trails and reporting",
+        "Mobile-responsive design for on-the-go access"
+      ],
+      "github": "https://github.com/kenymartin/evoltbay",
+      "demo": "https://evoltbay.com",
+      "status": "in-progress"
+    },
+    {
+      "id": 1,
+      "title": "Enterprise ERP Integration Platform",
+      "description": "A comprehensive integration platform connecting Epicor and Kinetic ERP systems with custom web applications. Features real-time data synchronization, automated workflows, and advanced reporting capabilities.",
+      "image": "/images/project1.jpg",
+      "technologies": ["ASP.NET Core", "Angular", "SQL Server", "Epicor ERP", "Kinetic ERP", "AWS", "Docker"],
+      "features": [
+        "Real-time ERP data synchronization across multiple systems",
+        "Custom API endpoints for order management and invoicing",
+        "Automated workflow processing reducing manual tasks by 45%",
+        "Advanced reporting dashboard with financial analytics",
+        "OAuth2/OpenID Connect authentication and authorization",
+        "Comprehensive API documentation with Swagger/OpenAPI"
+      ],
+      "github": "https://github.com/kenymartin/erp-integration",
+      "demo": "https://erp-integration-demo.netlify.app",
+      "status": "completed"
+    },
+    {
+      "id": 2,
+      "title": "High-Performance REST API Suite",
+      "description": "Enterprise-grade REST API platform built with ASP.NET Core, featuring advanced caching, pagination, and performance optimization. Integrated with SQL Server and Entity Framework for maximum efficiency.",
+      "image": "/images/project2.jpg",
+      "technologies": ["ASP.NET Core", "Entity Framework", "SQL Server", "Redis", "Docker", "AWS", "Swagger"],
+      "features": [
+        "Optimized database queries reducing latency by 35%",
+        "Advanced caching strategies with Redis integration",
+        "Comprehensive pagination and filtering capabilities",
+        "Automated API documentation with Swagger/OpenAPI",
+        "Centralized logging and monitoring with Serilog",
+        "OAuth2 authentication with role-based authorization"
+      ],
+      "github": "https://github.com/kenymartin/rest-api-suite",
+      "demo": "https://api-demo.netlify.app",
+      "status": "completed"
+    },
+    {
+      "id": 3,
+      "title": "Angular Enterprise Dashboard",
+      "description": "Modern Angular-based single-page application with NgRx state management, featuring real-time data visualization, responsive design, and seamless ERP integration.",
+      "image": "/images/project3.jpg",
+      "technologies": ["Angular", "NgRx", "TypeScript", "Bootstrap", "Chart.js", "RxJS", "ASP.NET Core"],
+      "features": [
+        "Modular Angular components with lazy loading",
+        "Advanced state management with NgRx",
+        "Real-time data visualization and analytics",
+        "Responsive design optimized for all devices",
+        "Integration with multiple ERP systems",
+        "Comprehensive unit testing with Jasmine/Karma"
+      ],
+      "github": "https://github.com/kenymartin/angular-dashboard",
+      "demo": "https://dashboard-demo.netlify.app",
+      "status": "completed"
+    },
+    {
+      "id": 4,
+      "title": "CI/CD Automation Pipeline",
+      "description": "Comprehensive DevOps solution featuring automated build, test, and deployment pipelines. Supports multiple environments with blue-green deployments and zero-downtime releases.",
+      "image": "/images/project4.jpg",
+      "technologies": ["Azure DevOps", "Docker", "Kubernetes", "GitHub Actions", "AWS", "SonarQube"],
+      "features": [
+        "Automated CI/CD pipelines reducing deployment time by 50%",
+        "Blue-green deployment strategy for zero-downtime releases",
+        "Docker containerization for consistent environments",
+        "Automated testing with unit, integration, and E2E tests",
+        "Code quality gates with SonarQube integration",
+        "Multi-environment deployment support (dev, staging, prod)"
+      ],
+      "github": "https://github.com/kenymartin/cicd-pipeline",
+      "demo": "https://pipeline-demo.netlify.app",
+      "status": "in-progress"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Eastern Central University",
+      "degree": "Bachelor of Science — Computer and Information Sciences",
+      "location": "Dominican Republic",
+      "startDate": "2008-09",
+      "endDate": "2012-05",
+      "gpa": "3.5/4.0",
+      "achievements": [
+        "Focused on software engineering and database management",
+        "Completed coursework in programming languages and system design",
+        "Developed foundation for enterprise application development"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Certified Solutions Architect - Associate",
+      "issuer": "Amazon Web Services",
+      "date": "2022-08",
+      "credentialId": "AWS-12345"
+    },
+    {
+      "name": "Microsoft Certified: Azure Developer Associate",
+      "issuer": "Microsoft",
+      "date": "2021-11",
+      "credentialId": "MS-67890"
+    },
+    {
+      "name": "Epicor 10 ERP Implementation Specialist",
+      "issuer": "Epicor Software",
+      "date": "2019-03",
+      "credentialId": "EPI-45678"
+    },
+    {
+      "name": "OWASP Security Fundamentals",
+      "issuer": "OWASP Foundation",
+      "date": "2020-06",
+      "credentialId": "OWASP-90123"
+    }
+  ]
+}
+
