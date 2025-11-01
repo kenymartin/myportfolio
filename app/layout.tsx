@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import { Inter, Cormorant_Garamond } from 'next/font/google'
 import './globals.css'
 
@@ -16,6 +16,7 @@ const cormorant = Cormorant_Garamond({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://kenymartin-portfolio.vercel.app'),
   title: 'Keny Martin Robles | Full-Stack Engineer & Cloud Developer',
   description: 'Experienced Full-Stack Engineer specializing in modern JavaScript frameworks, .NET technologies, and cloud infrastructure. Building scalable, elegant solutions.',
   keywords: ['Full-Stack Developer', 'Cloud Engineer', 'React', 'Node.js', 'AWS', 'Azure', 'TypeScript', '.NET'],
@@ -24,7 +25,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://kenymartin.dev',
+    url: process.env.NEXT_PUBLIC_SITE_URL || 'https://kenymartin-portfolio.vercel.app',
     title: 'Keny Martin Robles | Full-Stack Engineer',
     description: 'Experienced Full-Stack Engineer specializing in modern JavaScript frameworks, .NET technologies, and cloud infrastructure.',
     siteName: 'Keny Martin Robles Portfolio',
@@ -53,11 +54,12 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
-  viewport: {
-    width: 'device-width',
-    initialScale: 1,
-    maximumScale: 5,
-  },
+}
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 5,
 }
 
 export default function RootLayout({
