@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
+import Image from 'next/image'
 import cvData from '@/data/cvData.json'
 
 export default function About() {
@@ -40,12 +41,15 @@ export default function About() {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <div className="gothic-border rounded-lg overflow-hidden aspect-square max-w-md mx-auto">
-              <div className="w-full h-full bg-gradient-to-br from-gothic-gray to-gothic-dark flex items-center justify-center">
+              <div className="w-full h-full bg-gradient-to-br from-gothic-gray to-gothic-dark flex items-center justify-center relative">
                 {personalInfo.photo ? (
-                  <img
+                  <Image
                     src={personalInfo.photo}
                     alt={`${personalInfo.name} profile photo`}
+                    width={400}
+                    height={400}
                     className="w-full h-full object-cover"
+                    priority
                   />
                 ) : (
                   <div className="text-center p-8">
